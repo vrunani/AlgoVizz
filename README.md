@@ -3,7 +3,8 @@ This Algorithm Visualizer made in html ,javascript and css.
 <p><b>Click on this link: https://vrunani.github.io/AlgoVizz/</b></p>
 Which makes it easy to understand and implmentation easy.
 
-Documentation is also in the zip file
+Documentation is also in the zip file as a report.doc
+
 
 Made by:
 1. Vrunani Muley
