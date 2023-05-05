@@ -1,0 +1,167 @@
+<!-- https://sandeep-shaw10.github.io/Algorithm_App/#codes -->
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="./styles.css" /> -->
+        
+        <title>Path Finder</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+
+</head>
+
+<body>
+    <header>
+        <nav>
+          <div class="name">
+              <div id="buttonsdiv">
+                <button id="visualizeButton" style="background-color: transparent;
+                border: none;
+                color: white;
+                outline: none;
+                margin-left: 20px;
+                padding: 5% 0%;
+                font-size: x-large;"><p>Visualize</p></button>
+                <button id="clearButton" style="background-color: transparent;
+                border: none;
+                color: white;
+                outline: none;
+                margin-left: 20px;
+                padding: 5% 0%;
+                font-size: x-large;" ><p>Clear Grid</p></button>
+              </div>
+              
+                <select id="algorithm_type" name="sort_type">
+                  <option value="dijkstra" selected>Dijkstra's Algorithm</option>
+                  <option value="Astar">A* Search algorithm</option>
+                  <option value="bfs">BFS(Breadth first search)</option>
+                  <option value="dfs">DFS(Depth first search)</option>
+                </select>
+            
+          </div>
+             
+              
+                <div id="header">
+                    <div id="title">Pathfinding Visualizer</div>
+                    <a href="/index.html"><img src="logo trans.png" class="image1" id="logo" /></a>
+                </div> 
+            </nav>
+    </header>
+    <section id="hello" >
+        <div id="Info_Cont1">
+
+            <h3>Indicator</h3>
+
+            <div id="indicator-container">
+                    <div class="indicator">
+                            <div class="indicator-block" id="start-indicator"></div>
+                            <div><p>Starting Position</p></div>
+                    </div>
+                    <div class="indicator">
+                            <div class="indicator-block" id="end-indicator"></div>
+                            <div><p>Ending Position</p></div>
+                    </div>
+                    <div class="indicator">
+                            <div class="indicator-block" id="visited-indicator"></div>
+                            <div><p>Visited Node</p></div>
+                    </div>
+                    <div class="indicator">
+                            <div class="indicator-block" id="wall-indicator"></div>
+                            <div><p>Wall</p></div>
+                    </div>
+                    <div class="indicator">
+                            <div class="indicator-block" id="path-indicator"></div>
+                            <div><p>Path</p></div>
+                    </div>
+            </div>
+
+        </div>
+        <div class="top" >
+            <div id="container"></div> 
+        </div>
+    </section>
+</body>
+      <!-- <div id="indicator-container">
+        <div class="indicator">
+          <div class="indicator-block" id="start-indicator"></div>
+          <div><p>Starting Position</p></div>
+        </div>
+        <div class="indicator">
+          <div class="indicator-block" id="end-indicator"></div>
+          <div><p>Ending Position</p></div>
+        </div>
+        <div class="indicator">
+          <div class="indicator-block" id="visited-indicator"></div>
+          <div><p>Visited Node</p></div>
+        </div>
+        <div class="indicator">
+          <div class="indicator-block" id="wall-indicator"></div>
+          <div><p>Wall</p></div>
+        </div>
+        <div class="indicator">
+          <div class="indicator-block" id="path-indicator"></div>
+          <div><p>Path</p></div>
+        </div>
+      </div> -->
+      
+    <!-- <header>
+        <div id="header">
+            <a href="/index.html"><div id="title">Algorithm Visualizer</div></a>
+            <div id="header-right">
+              <div>
+                <select id="algorithm_type" name="sort_type">
+                  <option value="dijkstra" selected>Dijkstra's Algorithm</option>
+                  <option value="Astar">A* Search algorithm</option>
+                  <option value="bfs">BFS(Breadth first search)</option>
+                  <option value="dfs">DFS(Depth first search)</option>
+                </select>
+              </div>
+            </div>
+          </div>
+    </header>
+
+    <section id="main-page">
+        <div id="indicator-container">
+            <div class="indicator">
+              <div class="indicator-block" id="start-indicator"></div>
+              <div><p>Starting Position</p></div>
+            </div>
+            <div class="indicator">
+              <div class="indicator-block" id="end-indicator"></div>
+              <div><p>Ending Position</p></div>
+            </div>
+            <div class="indicator">
+              <div class="indicator-block" id="visited-indicator"></div>
+              <div><p>Visited Node</p></div>
+            </div>
+            <div class="indicator">
+              <div class="indicator-block" id="wall-indicator"></div>
+              <div><p>Wall</p></div>
+            </div>
+            <div class="indicator">
+              <div class="indicator-block" id="path-indicator"></div>
+              <div><p>Path</p></div>
+            </div>
+          </div>
+            <div id="container"></div>
+            <div id="buttonsdiv">
+                <button id="visualizeButton" class="button"><p>Visualize</p></button>
+                <button id="clearButton" class="button"><p>Clear Grid</p></button>
+            </div>
+           
+    </section> -->
+    <footer>
+        <script src="./script.js"></script>
+    </footer>
+    
+    
+</body>
+
+
+
+</html>

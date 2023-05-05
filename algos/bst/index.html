@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Binary Search Tree</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  
+  <body>
+    <header>
+      <nav>
+        <div class="main">
+            <div id="OperationContainer">
+                  <input type="text" id="InsertNodeField" placeholder="Enter the number"/>
+                  <button type="button" id="InsertButton" class="button">Insert</button>
+                  <div>
+                  <input type="text" id="DeleteNodeField" placeholder="Enter the number"/>
+                  <button type="button" id="DeleteButton" class="button">Delete</button>
+                </div>
+            </div>
+          </div>
+          <div style="display: flex;">
+            <div id="title">Binary Search Tree</div>
+            <a href="/index.html"><img src="logo trans.png" class="image1" id="logo" /></a>
+          </div>
+      </nav>
+  </header>
+
+   
+      <!-- <div class="indicator_container">
+        <div class="indicator">
+          <div class="indicator_block" id="edge"></div>
+          <div class=""><p>Edge</p></div>
+        </div>
+        <div class="indicator">
+          <div class="indicator_block" id="node"></div>
+          <div class=""><p>Node</p></div>
+        </div>
+
+      </div> -->
+      <div class="Canvas">
+      </div>
+
+    <!-- D3.JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.5.0/d3.min.js"
+      integrity="sha512-0XfwGD1nxplHpehcSVI7lY+m/5L37PNHDt+DOc7aLFckwPXjnjeA1oeNbru7YeI4VLs9i+ADnnHEhP69C9CqTA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
